@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    color: aquamarine;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    background: linear-gradient;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.h1 {
+    font-size: 40px;
+    font-family: 'cinzel decorative', cursive;
+    font-weight: 300
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'cinzel decorative', cursive;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: blue;
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: dodgerblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: fuchsia;
+}
+
+html {
+    scroll-behavior: smooth;
+}
